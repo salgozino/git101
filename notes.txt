@@ -1,0 +1,48 @@
+Git 101 - SysArmy
+21/8/2019
+Museo de la Informatica.
+
+Notes:
+
+1) Repositorio: 
+Es un proyecto desde lo conceptual.
+En git es un índice y copia de código.
+
+En svn el espacio crece exponencialmente, en git no, por su algortimo de optimizacion y de que cada nueva version pesa aprox lo mismo.
+
+2) Branches
+Separación contextual del código.
+Es contextual? Si, por ejemplo; features, version, QA, test, propotipo.
+Multiples commits pueden pertenencer a un branch y solo a uno.
+
+Rama principal (master) la cual apunta a estar en producción, o un estado que puede ser produccion. Mientras que se abren branches para nuevas features.
+Staging (pre-prudiccion), se utiliza para hacer testeos, y validar el código antes de enviar a producir.
+En git normalmente se usa un branch para produccion o el master es produccion.
+Posible. 1 branch es produccion con mirror al codigo en funcionamiento, y el master es un demo, de staging.
+
+3) Tags!
+Es una etiqueta que se coloca a un commit en particular. Como el commit tiene el hash que es imposible acordar, usas tags para recordar. Generalmente se usa para un milestone, o versionado.
+El tag se coloca a UN SOLO COMMIT.
+
+4) Descentralizado.
+Al ser descentralizado, dos usarios pueden hacer push entre ellos sin pasar por el origin (server). No es muy recomendado.
+
+
+Config GIT:
+user.name "Emma Paris"
+user.email ""
+
+
+5) A donde poner mi rempo
+Requerimientos funcionales
+Wiki
+Issue tracjer
+CI
+
+GitHub (no lo puedo hostear inhouse)/ GitLab (lo puedo hacer compeltamente local en servidores propios).
+
+
+6) Primeros pasos
+git init
+
+git add -> cuando estoy seguro que quiero commitear el archivo, entonces lo paso al stage area.
