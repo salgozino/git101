@@ -46,3 +46,5 @@ GitHub (no lo puedo hostear inhouse)/ GitLab (lo puedo hacer compeltamente local
 git init
 
 git add -> cuando estoy seguro que quiero commitear el archivo, entonces lo paso al stage area.
+
+git merge master (trae master a branch1) !, muy distinto a llevar branch1 a master.
