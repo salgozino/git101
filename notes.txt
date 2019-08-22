@@ -51,3 +51,12 @@ git merge master (trae master a branch1) !, muy distinto a llevar branch1 a mast
 
 Cambie el core editor
 
+#Pull Request.
+
+Merge & commit, guarda todos el historial de commits entre branch y el master.
+Squash and merge. Todos los commits los agrupo en uno solo, entonces en master me queda un solo commit.
+Rebase and merge. Rebase cambia y no mantiene la fecha de los commits. Es decir, en el master me los pone con fecha de cuando hago el merge, y no de cuando fueron los commits.
+
+
+Test link issue
+
