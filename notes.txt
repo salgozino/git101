@@ -60,3 +60,20 @@ Rebase and merge. Rebase cambia y no mantiene la fecha de los commits. Es decir,
 
 Test link issue
 
+Se puede hacer un template de comentarios para commits. hay que configurarlo! (no llegue a copiar)
+git config 
+
+hooks?
+permite ejecutar scripts ante ciertos eventos. Por ejemplo, antes de hacer un push hacer un checkeo.
+chequeo de comentarios..
+
+
+Git Flow
+Master branch produccion
+Second branch -> second level of confirmation (Release Manager tiene potestad).
+Tirth branch -> Develop
+Cada desarrollador abre un hilo y pushea a develops
+
+
+Cherrypick me choreo un solo commit desde otro lado.
+
